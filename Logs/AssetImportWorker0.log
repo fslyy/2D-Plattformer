@@ -1,0 +1,691 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'de' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Felix/Documents/GitHub/2D-Plattformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60122
+Successfully changed project path to: C:/Users/Felix/Documents/GitHub/2D-Plattformer
+C:/Users/Felix/Documents/GitHub/2D-Plattformer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Felix/Documents/GitHub/2D-Plattformer/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8148 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001279 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1021ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (444ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005511 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1261ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1035ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2523.
+Total: 2.622100 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.050800 ms MarkObjects: 2.221000 ms  DeleteObjects: 0.138000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/tilesets
+  artifactKey: Guid(08c9cf57d342a35439c73afd8bdce67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilesets using Guid(08c9cf57d342a35439c73afd8bdce67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32987cb16bb2de24dd40537e7f900954') in 0.009251 seconds 
+  Import took 0.012993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.500083 seconds.
+  path: Assets/tile pallettes/ground_tiles
+  artifactKey: Guid(377f25bf0c027bd4e9f1015e1d89284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes/ground_tiles using Guid(377f25bf0c027bd4e9f1015e1d89284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1e70ac93e889923e2176b192440ed6') in 0.006729 seconds 
+  Import took 0.009971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.740058 seconds.
+  path: Assets/tileset_krita/ground_tile
+  artifactKey: Guid(f5ad9c0abb67e72439ee13fb7fd27aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tile using Guid(f5ad9c0abb67e72439ee13fb7fd27aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2856365b873ea2e4d62f55afc3de9fd8') in 0.007646 seconds 
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.166274 seconds.
+  path: Assets/tileset_krita/ground_tiles
+  artifactKey: Guid(f5ad9c0abb67e72439ee13fb7fd27aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles using Guid(f5ad9c0abb67e72439ee13fb7fd27aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4594a4382ed2d67a068b055801d5c5d4') in 0.002901 seconds 
+  Import took 0.006332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.204260 seconds.
+  path: Assets/tileset_krita/basic_ground 1.png
+  artifactKey: Guid(63a6e99c1f6f44f44bd1db153abe2e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/basic_ground 1.png using Guid(63a6e99c1f6f44f44bd1db153abe2e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d08a1396379aa56dcf1bf6dd2f3abc') in 0.165462 seconds 
+  Import took 0.168835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/tileset_krita/basic_ground_edge_inwards2 1.png
+  artifactKey: Guid(5436935ccd3ff4a4e929bdaf524861b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/basic_ground_edge_inwards2 1.png using Guid(5436935ccd3ff4a4e929bdaf524861b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fd42acaf47fb6fe186507015e711f3') in 0.013759 seconds 
+  Import took 0.016893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/tileset_krita/basic_ground_edge_inwards4 1.png
+  artifactKey: Guid(41baf5f464379ed4eaa7adeaf0452061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/basic_ground_edge_inwards4 1.png using Guid(41baf5f464379ed4eaa7adeaf0452061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f476f59795672eb84d396034fdd192e5') in 0.013168 seconds 
+  Import took 0.016590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/tileset_krita/basic_ground_edge_inwards3 1.png
+  artifactKey: Guid(d187af99a9dace044be8557d35433a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/basic_ground_edge_inwards3 1.png using Guid(d187af99a9dace044be8557d35433a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f950de3d135eb0aeb5f86cf5aaf7afc7') in 0.014816 seconds 
+  Import took 0.018260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/tileset_krita/basic_ground_edge_straight1 1.png
+  artifactKey: Guid(5e9ed97ab358dfb45bf4636ca86a2775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/basic_ground_edge_straight1 1.png using Guid(5e9ed97ab358dfb45bf4636ca86a2775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c8fcee7a910e67a383437bbbd2eb76') in 0.013314 seconds 
+  Import took 0.016511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/tileset_krita/basic_ground_edge_inwards1 1.png
+  artifactKey: Guid(eb06a7c1c8734184f9d91cc159566510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/basic_ground_edge_inwards1 1.png using Guid(eb06a7c1c8734184f9d91cc159566510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45c14a043d5115b248d101ae61c1711') in 0.013263 seconds 
+  Import took 0.016624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 399.887168 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_straight1.png
+  artifactKey: Guid(a2735af4578c11b43b7747a7b3b58d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_straight1.png using Guid(a2735af4578c11b43b7747a7b3b58d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9533ce5720c30adcca8d85c0bd2aefb') in 0.016224 seconds 
+  Import took 0.020126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.592338 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards1.png
+  artifactKey: Guid(b1488182635b2294ea7bbd396ab986eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards1.png using Guid(b1488182635b2294ea7bbd396ab986eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46594be581b16aefb9b909c074fd57a4') in 0.015600 seconds 
+  Import took 0.019322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.147151 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards2.png
+  artifactKey: Guid(3dc3714b60c00f743acbd8d7af29e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards2.png using Guid(3dc3714b60c00f743acbd8d7af29e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d65faf98d876588d5fcdcf26d72feef') in 0.017055 seconds 
+  Import took 0.020594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.026352 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards3.png
+  artifactKey: Guid(5d84a0eddeba8b04c88eef9c2b6ead06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards3.png using Guid(5d84a0eddeba8b04c88eef9c2b6ead06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40910580c487bdbb02e2267a7e13eb6') in 0.015228 seconds 
+  Import took 0.018700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.992313 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards4.png
+  artifactKey: Guid(cbd2350e28243cf48bc8b3809ab89044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_inwards4.png using Guid(cbd2350e28243cf48bc8b3809ab89044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28be2803208468872135946cb9d4dd2') in 0.021087 seconds 
+  Import took 0.025741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_straight2.png
+  artifactKey: Guid(5beac071959e5364b83e0fc91b9db34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_straight2.png using Guid(5beac071959e5364b83e0fc91b9db34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb64c5f2d0f1a7362e43689393059c06') in 0.014382 seconds 
+  Import took 0.017506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.767184 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_straight2.png
+  artifactKey: Guid(5beac071959e5364b83e0fc91b9db34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_straight2.png using Guid(5beac071959e5364b83e0fc91b9db34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41e62b139823ea31d5e6653b53a69a0') in 0.012895 seconds 
+  Import took 0.016656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.559378 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_straight3.png
+  artifactKey: Guid(bc92a4f03a05d6a46895f8fade48a610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_straight3.png using Guid(bc92a4f03a05d6a46895f8fade48a610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee754707808a2f1031677d84de764837') in 0.016182 seconds 
+  Import took 0.019826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.657147 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_straight4.png
+  artifactKey: Guid(8f3bd2d1519fe04458cdc258a525e0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_straight4.png using Guid(8f3bd2d1519fe04458cdc258a525e0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27f9f7a67465f8ca008e99e9b6b3220') in 0.014313 seconds 
+  Import took 0.018747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.919442 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_turn1.png
+  artifactKey: Guid(dc974ddcdb8fb0f41bfb4702d504caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_turn1.png using Guid(dc974ddcdb8fb0f41bfb4702d504caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813ab4eec88bc1ccf06272c2789ac657') in 0.016415 seconds 
+  Import took 0.020330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.427361 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_turn1.png
+  artifactKey: Guid(dc974ddcdb8fb0f41bfb4702d504caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_turn1.png using Guid(dc974ddcdb8fb0f41bfb4702d504caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3be89fdabec142400529f809a763c6') in 0.012420 seconds 
+  Import took 0.015962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.913324 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_turn2.png
+  artifactKey: Guid(d75c960bdfcbf814c97771381b2b42b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_turn2.png using Guid(d75c960bdfcbf814c97771381b2b42b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6adf5e503856cd8a91dbcc9513def2') in 0.015868 seconds 
+  Import took 0.023211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.264098 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_turn3.png
+  artifactKey: Guid(2b6f8a8d4a084ed4b8f7bc938d8e1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_turn3.png using Guid(2b6f8a8d4a084ed4b8f7bc938d8e1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a707c1183b303f9647e1798103e7d783') in 0.014658 seconds 
+  Import took 0.019165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.091378 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_turn3.png
+  artifactKey: Guid(2b6f8a8d4a084ed4b8f7bc938d8e1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_turn3.png using Guid(2b6f8a8d4a084ed4b8f7bc938d8e1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7073adadbb3e6ff374be944fee7d92') in 0.013663 seconds 
+  Import took 0.017447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.125563 seconds.
+  path: Assets/tileset_krita/ground_tiles/basic_ground_edge_turn4.png
+  artifactKey: Guid(de04a0412717b7543960fa08752ff001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/ground_tiles/basic_ground_edge_turn4.png using Guid(de04a0412717b7543960fa08752ff001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d41137a25b61b86ffeea68e660fb89') in 0.020969 seconds 
+  Import took 0.025984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 261.248165 seconds.
+  path: Assets/tile pallettes/background_tile_palette.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes/background_tile_palette.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd685ddda6c7cfb07887032e7073c7d6') in 0.051988 seconds 
+  Import took 0.055835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.443418 seconds.
+  path: Assets/tile pallettes
+  artifactKey: Guid(25eaefe88598bd94891a3999be552395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes using Guid(25eaefe88598bd94891a3999be552395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e252bbc7e7f825d7e57fed252aba70d2') in 0.009377 seconds 
+  Import took 0.012721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.519096 seconds.
+  path: Assets/tile pallettes/New Folder
+  artifactKey: Guid(c53962bd628ef614291c9d106280cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes/New Folder using Guid(c53962bd628ef614291c9d106280cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4645d40cad59f03c17754a4281a56f8') in 0.008356 seconds 
+  Import took 0.011741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068924 seconds.
+  path: Assets/tile pallettes/ground_tile_pallette
+  artifactKey: Guid(377f25bf0c027bd4e9f1015e1d89284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes/ground_tile_pallette using Guid(377f25bf0c027bd4e9f1015e1d89284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b925278999ab9ffd09f3a3d186847a7f') in 0.007736 seconds 
+  Import took 0.011190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.231302 seconds.
+  path: Assets/tile pallettes/New Folder/background_tiles.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes/New Folder/background_tiles.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81367d9279bb673f65173ad7876f21b') in 0.016412 seconds 
+  Import took 0.020147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.928853 seconds.
+  path: Assets/tile pallettes/background_tile_palette
+  artifactKey: Guid(c53962bd628ef614291c9d106280cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes/background_tile_palette using Guid(c53962bd628ef614291c9d106280cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5433bfa82f226c8d0212a7b80cea9f') in 0.003574 seconds 
+  Import took 0.008644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.228105 seconds.
+  path: Assets/tile pallettes/ground_tile_palette
+  artifactKey: Guid(377f25bf0c027bd4e9f1015e1d89284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile pallettes/ground_tile_palette using Guid(377f25bf0c027bd4e9f1015e1d89284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d35af6fa80aae7bab9e68cfd690313') in 0.008227 seconds 
+  Import took 0.011571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.350809 seconds.
+  path: Assets/tileset_krita/background_tiles
+  artifactKey: Guid(bcb010ff3e9fb8b43a38ead6f8ffd714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles using Guid(bcb010ff3e9fb8b43a38ead6f8ffd714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41ecafd89c65598d2ee98f6dba9652e') in 0.002911 seconds 
+  Import took 0.006309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 340.492584 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_simple.kra
+  artifactKey: Guid(c140ea92f2e52364da48f6d727c7d485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_simple.kra using Guid(c140ea92f2e52364da48f6d727c7d485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd0aa5e6526eb468e372d158f594ff0') in 0.013108 seconds 
+  Import took 0.016702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.606388 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_simple..png
+  artifactKey: Guid(ef9c191e879dad74088622817ae827af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_simple..png using Guid(ef9c191e879dad74088622817ae827af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015b1d5392994d39cb66fe5b27012f7e') in 0.017401 seconds 
+  Import took 0.020875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.160951 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tile_simple..asset
+  artifactKey: Guid(ea3c515737380a04dbafbee5b4cb0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tile_simple..asset using Guid(ea3c515737380a04dbafbee5b4cb0502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fd040c9702c89b9cbc3d334f2ecfba') in 0.016987 seconds 
+  Import took 0.020534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tiles.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tiles.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d00c1d7a9596f1d97a826bb2fc8dc87') in 0.017598 seconds 
+  Import took 0.020826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002850 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tiles.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tiles.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d00c1d7a9596f1d97a826bb2fc8dc87') in 0.013151 seconds 
+  Import took 0.017602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.347892 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_simple..png
+  artifactKey: Guid(ef9c191e879dad74088622817ae827af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_simple..png using Guid(ef9c191e879dad74088622817ae827af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ea136f7f9c47f89decd7f737d82685') in 0.009147 seconds 
+  Import took 0.014149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.285432 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_simple..png
+  artifactKey: Guid(ef9c191e879dad74088622817ae827af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_simple..png using Guid(ef9c191e879dad74088622817ae827af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2466cf1c8fc30bdb572d658c602c7d') in 0.012681 seconds 
+  Import took 0.016339 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1210ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1017ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2538.
+Total: 2.729800 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.307100 ms  DeleteObjects: 0.127700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 224.327102 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_detail1.png
+  artifactKey: Guid(fdadc362cf8ad5f45ad0e712e0a8b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_detail1.png using Guid(fdadc362cf8ad5f45ad0e712e0a8b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b356d84a9711d0a829ee439a77e4ec6') in 0.059142 seconds 
+  Import took 0.062690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.866637 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_detail1.png
+  artifactKey: Guid(fdadc362cf8ad5f45ad0e712e0a8b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_detail1.png using Guid(fdadc362cf8ad5f45ad0e712e0a8b82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e8a7bd68622087ff23950da141e635') in 0.010268 seconds 
+  Import took 0.013889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.390382 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tile_detail1.asset
+  artifactKey: Guid(9927e98282118e846a76c61bd17b5918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tile_detail1.asset using Guid(9927e98282118e846a76c61bd17b5918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f26cd375bc1f7b7a466cf870ae72e5') in 0.017997 seconds 
+  Import took 0.021499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tiles.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tiles.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b79e2bc2794fffc98f31148cb49f41') in 0.030034 seconds 
+  Import took 0.033223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 534.360301 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_detail2.png
+  artifactKey: Guid(dbbb5849357716541b4faa2f478a7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_detail2.png using Guid(dbbb5849357716541b4faa2f478a7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25115921056a4ca50d3af0ddb9bfd767') in 0.016113 seconds 
+  Import took 0.020485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.382003 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_detail2.png
+  artifactKey: Guid(dbbb5849357716541b4faa2f478a7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_detail2.png using Guid(dbbb5849357716541b4faa2f478a7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dedbf60bbf655c3434859fb6b2d41b0') in 0.009476 seconds 
+  Import took 0.012923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 482.452276 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_detail3.png
+  artifactKey: Guid(747a03f5fbdc37040b6b808efe206593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_detail3.png using Guid(747a03f5fbdc37040b6b808efe206593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c8ec3db16e1882f496c19d73a9c1b9') in 0.024462 seconds 
+  Import took 0.029257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.566842 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_detail3.png
+  artifactKey: Guid(747a03f5fbdc37040b6b808efe206593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_detail3.png using Guid(747a03f5fbdc37040b6b808efe206593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7384a36d40b73b23c70de98558f9f94f') in 0.014608 seconds 
+  Import took 0.018027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.440228 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tile_detail2.asset
+  artifactKey: Guid(157998c274416b54085f8aa82ef8f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tile_detail2.asset using Guid(157998c274416b54085f8aa82ef8f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c62d43b18a80ae5d10768516eff61e6') in 0.012835 seconds 
+  Import took 0.016271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tile_detail3.asset
+  artifactKey: Guid(fd266d162a4e2eb448f9d3b7f676344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tile_detail3.asset using Guid(fd266d162a4e2eb448f9d3b7f676344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fde1a98c59be9855b8a3102e2d9ad7') in 0.012667 seconds 
+  Import took 0.015727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tiles.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tiles.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0858b859ddb0e51810db3a404855c353') in 0.012117 seconds 
+  Import took 0.015364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 658.308609 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_stripe_straight1.png
+  artifactKey: Guid(c2167f7c953e7ae4780bbeda7a8e005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_stripe_straight1.png using Guid(c2167f7c953e7ae4780bbeda7a8e005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10788473efc21f80a7ddfecfae0436eb') in 0.035497 seconds 
+  Import took 0.039977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.260998 seconds.
+  path: Assets/tileset_krita/background_tiles/background_tile_stripe_straight1.png
+  artifactKey: Guid(c2167f7c953e7ae4780bbeda7a8e005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/background_tiles/background_tile_stripe_straight1.png using Guid(c2167f7c953e7ae4780bbeda7a8e005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049ab7cc6ee3e074f2e627f3dae05d9d') in 0.014168 seconds 
+  Import took 0.018178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 270.946103 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tile_stripe_straight1.asset
+  artifactKey: Guid(e5a13cddf06275d41963eece1d880de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tile_stripe_straight1.asset using Guid(e5a13cddf06275d41963eece1d880de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccd07be3a487812b65c8312c545bfd9') in 0.004808 seconds 
+  Import took 0.008282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tiles.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tiles.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fd9121ea718629d71e592c296abefb') in 0.011435 seconds 
+  Import took 0.014551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.945626 seconds.
+  path: Assets/tile palettes/background_tile_palette/background_tiles.prefab
+  artifactKey: Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes/background_tile_palette/background_tiles.prefab using Guid(3576570fe74b99e4ebd0d7b8aa6fab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e4afe60163df594e774b4a588b8707') in 0.012026 seconds 
+  Import took 0.015667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 852.595340 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.007402 seconds 
+  Import took 0.010934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021642 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.003054 seconds 
+  Import took 0.006036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 389.767472 seconds.
+  path: Assets/tileset_krita/backgroundimage.kra
+  artifactKey: Guid(830c4c7baf592314fb7dddb70a44bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/backgroundimage.kra using Guid(830c4c7baf592314fb7dddb70a44bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f81b423496dd9b32782f1e83d55d64') in 0.009299 seconds 
+  Import took 0.013106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.010844 seconds.
+  path: Assets/tileset_krita/backgroundimage.png
+  artifactKey: Guid(34f4863da17d4ac4f9936662e8a3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/backgroundimage.png using Guid(34f4863da17d4ac4f9936662e8a3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb6d916818c76a5991958776ef9298e') in 0.019798 seconds 
+  Import took 0.024088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.995254 seconds.
+  path: Assets/tileset_krita/backgroundimage.png
+  artifactKey: Guid(34f4863da17d4ac4f9936662e8a3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/backgroundimage.png using Guid(34f4863da17d4ac4f9936662e8a3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df28fffef668f6ec8c0f6f24c4481ab') in 0.010179 seconds 
+  Import took 0.013646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.942032 seconds.
+  path: Assets/tile palettes
+  artifactKey: Guid(25eaefe88598bd94891a3999be552395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tile palettes using Guid(25eaefe88598bd94891a3999be552395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9193c0c8dd883a4973961a281f9c07b5') in 0.007502 seconds 
+  Import took 0.010819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.212396 seconds.
+  path: Assets/tileset_krita/backgroundimage.png
+  artifactKey: Guid(34f4863da17d4ac4f9936662e8a3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tileset_krita/backgroundimage.png using Guid(34f4863da17d4ac4f9936662e8a3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b63a8a06b7bce93ad599e2f4169aa5') in 0.009292 seconds 
+  Import took 0.012732 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

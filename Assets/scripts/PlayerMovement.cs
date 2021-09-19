@@ -10,7 +10,13 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 20f;
 
+    public float dashcooldown = 5f;
+
+
     bool jump = false;
+    bool dash = false;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -21,13 +27,23 @@ public class PlayerMovement : MonoBehaviour
         {
             jump = true;
         }
+        if (dashcooldown < 0)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                dash = true;
+                dashcooldown = 5f;
+            }
+        }
 
     }
     private void FixedUpdate()
     {
         //movement
 
-        controller.Move(Horizontal_Movement * Time.fixedDeltaTime, false, jump);
+        controller.Move(Horizontal_Movement * Time.fixedDeltaTime, false, jump, dash);
         jump = false;
+        dash = false;
+        dashcooldown -= 5 * Time.deltaTime;
     }
 }

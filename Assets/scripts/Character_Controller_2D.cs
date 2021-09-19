@@ -30,6 +30,7 @@ public class Character_Controller_2D : MonoBehaviour
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
 
+
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -61,7 +62,7 @@ public class Character_Controller_2D : MonoBehaviour
 	}
 
 
-	public void Move(float move, bool crouch, bool jump)
+	public void Move(float move, bool crouch, bool jump, bool dash)
 	{
 		// If crouching, check to see if the character can stand up
 		if (!crouch)
@@ -130,6 +131,17 @@ public class Character_Controller_2D : MonoBehaviour
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+		}
+		if (dash)
+		{
+			if (m_FacingRight)
+			{
+				m_Rigidbody2D.AddForce(new Vector2(2500f, 0));
+			}
+			if (!m_FacingRight)
+			{
+				m_Rigidbody2D.AddForce(new Vector2(-2500f, 0));
+			}
 		}
 	}
 

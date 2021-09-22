@@ -136,11 +136,11 @@ public class Character_Controller_2D : MonoBehaviour
 		{
 			if (m_FacingRight)
 			{
-				m_Rigidbody2D.AddForce(new Vector2(2500f, 0));
+				m_Rigidbody2D.AddForce(new Vector2(2000f, 0));
 			}
 			if (!m_FacingRight)
 			{
-				m_Rigidbody2D.AddForce(new Vector2(-2500f, 0));
+				m_Rigidbody2D.AddForce(new Vector2(-2000f, 0));
 			}
 		}
 	}

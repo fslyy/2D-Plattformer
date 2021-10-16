@@ -49,6 +49,9 @@ TagManager:
   - name: background
     uniqueID: 2892796843
     locked: 0
+  - name: hazards
+    uniqueID: 2914011643
+    locked: 0
   - name: ground
     uniqueID: 2770691991
     locked: 0

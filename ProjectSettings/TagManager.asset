@@ -6,6 +6,7 @@ TagManager:
   tags:
   - death
   - ground
+  - damage
   layers:
   - Default
   - TransparentFX

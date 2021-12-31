@@ -44,6 +44,9 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(Horizontal_Movement * Time.fixedDeltaTime, false, jump, dash);
         jump = false;
         dash = false;
-        dashcooldown -= 5 * Time.deltaTime;
+        if (dashcooldown >= 0)
+        { 
+            dashcooldown -= 5 * Time.deltaTime;
+        }
     }
 }

@@ -10,43 +10,39 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 20f;
 
-    public float dashcooldown = 5f;
+    public bool dashcooldown = false;
+    public bool jump = false;
+    public bool dash = false;
+    
 
-
-    bool jump = false;
-    bool dash = false;
-
-
-    // Update is called once per frame
     void Update()
     {
-        //input from player
         Horizontal_Movement = Input.GetAxisRaw("Horizontal") * speed;
 
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
         }
-        if (dashcooldown < 0)
+        if (dashcooldown == false)
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 dash = true;
-                dashcooldown = 5f;
+                dashcooldown = true;
+                Invoke("dashback", 2);
             }
         }
 
     }
     private void FixedUpdate()
     {
-        //movement
 
         controller.Move(Horizontal_Movement * Time.fixedDeltaTime, false, jump, dash);
         jump = false;
         dash = false;
-        if (dashcooldown >= 0)
-        { 
-            dashcooldown -= 5 * Time.deltaTime;
-        }
+    }
+    public void dashback()
+    {
+        dashcooldown = false;
     }
 }

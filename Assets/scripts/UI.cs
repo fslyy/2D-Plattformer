@@ -6,32 +6,43 @@ using System.Threading.Tasks;
 
 public class UI : MonoBehaviour
 {
-    public Image image1;
-    public Image image2;
-    public Image image3;
-    public Sprite sprite_old;
-    public Sprite sprite_new;
+    public Image heart1;
+    public Image heart2;
+    public Image heart3;
+    public Image dashcd;
+    public Sprite heart_full;
+    public Sprite heart_empty;
+    public Sprite dash_up;
+    public Sprite dash_cd;
     // Update is called once per frame
 
     void Update()
     {
         if (GameObject.Find("player").GetComponent<DeathCheck>().lives <= 2)
         {
-            image3.sprite = sprite_new;
+            heart3.sprite = heart_empty;
         }
         if (GameObject.Find("player").GetComponent<DeathCheck>().lives <= 1)
         {
-            image2.sprite = sprite_new;
+            heart2.sprite = heart_empty;
         }
         if (GameObject.Find("player").GetComponent<DeathCheck>().lives <= 0)
         {
-            image1.sprite = sprite_new;
+            heart1.sprite = heart_empty;
         }
-        if(GameObject.Find("player").GetComponent<DeathCheck>().lives == 0)
+        if(GameObject.Find("player").GetComponent<DeathCheck>().lives == 3)
         {
-            image1.sprite = sprite_old;
-            image2.sprite = sprite_old;
-            image3.sprite = sprite_old;
+            heart1.sprite = heart_full;
+            heart2.sprite = heart_full;
+            heart3.sprite = heart_full;
+        }
+        if (GameObject.Find("player").GetComponent<PlayerMovement>().dashcooldown == false)
+        {
+            dashcd.sprite = dash_up;
+        }
+        if (GameObject.Find("player").GetComponent<PlayerMovement>().dashcooldown == true)
+        {
+            dashcd.sprite = dash_cd;
         }
     }
 }

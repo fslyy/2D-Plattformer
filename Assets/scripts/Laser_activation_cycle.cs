@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Laser_activation_cycle : MonoBehaviour
 {
-    public float laser_cd;
-    public float counter;
+    public bool Laser_on = false;
     private BoxCollider2D laser_col;
     private SpriteRenderer laser_spr;
     // Start is called before the first frame update
@@ -13,28 +12,31 @@ public class Laser_activation_cycle : MonoBehaviour
     {
         laser_col = GetComponent<BoxCollider2D>();
         laser_spr = GetComponent<SpriteRenderer>();
-        counter = laser_cd;
     }
 
     // Update is called once per frame
     void Update()
     {
-        counter -= 5 * Time.deltaTime;
-
-        if (counter < 0)
+        if (Laser_on == false)
         {
             laser_col.enabled = false;
             laser_spr.enabled = false;
+            Invoke("Laser_back", 1.5f);
         }
-        else if (counter > 0)
+        if (Laser_on == true)
         {
             laser_col.enabled = true;
             laser_spr.enabled = true;
+            Invoke("Laser_off", 1.5f);
         }
-        if (counter <= -laser_cd)
-        {
-            counter = laser_cd;
-        }
-        
+
+    }
+    private void Laser_off()
+    {
+        Laser_on = false;
+    }
+    private void Laser_back()
+    {
+        Laser_on = true;
     }
 }

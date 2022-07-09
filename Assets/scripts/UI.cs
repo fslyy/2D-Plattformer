@@ -10,10 +10,13 @@ public class UI : MonoBehaviour
     public Image heart2;
     public Image heart3;
     public Image dashcd;
+    public Image key_indicator;
     public Sprite heart_full;
     public Sprite heart_empty;
     public Sprite dash_up;
     public Sprite dash_cd;
+    public Sprite key;
+    public Sprite empty_slot;
     // Update is called once per frame
 
     void Update()
@@ -40,9 +43,18 @@ public class UI : MonoBehaviour
         {
             dashcd.sprite = dash_up;
         }
-        if (GameObject.Find("player").GetComponent<PlayerMovement>().dashcooldown == true)
+        else
         {
             dashcd.sprite = dash_cd;
+        }
+
+        if (GameObject.Find("player").GetComponent<key_door_sys>().has_key == true)
+        {
+            key_indicator.sprite = key;
+        }
+        else
+        {
+            key_indicator.sprite = empty_slot;
         }
     }
 }

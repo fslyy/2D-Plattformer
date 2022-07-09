@@ -17,6 +17,7 @@ public class key_door_sys : MonoBehaviour
         if (collision.gameObject.tag == "door" && has_key == true)
         {
             door_open = true;
+            has_key = false;
         }
     }
 }

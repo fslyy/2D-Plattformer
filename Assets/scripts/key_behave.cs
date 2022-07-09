@@ -7,7 +7,7 @@ public class key_behave : MonoBehaviour
     private GameObject player;
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.Find("player");
     }
 
     private void Update()

@@ -9,7 +9,7 @@ public class door_behave : MonoBehaviour
     public SpriteRenderer spriterenderer;
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.Find("player");
     }
 
     private void Update()

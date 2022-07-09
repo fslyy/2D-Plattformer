@@ -7,6 +7,8 @@ TagManager:
   - death
   - ground
   - damage
+  - key
+  - door
   layers:
   - Default
   - TransparentFX
@@ -49,6 +51,9 @@ TagManager:
     locked: 0
   - name: background
     uniqueID: 2892796843
+    locked: 0
+  - name: details
+    uniqueID: 2258287639
     locked: 0
   - name: hazards
     uniqueID: 2914011643

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9215408304914644287}
   - component: {fileID: 9215408304914644286}
   - component: {fileID: 8387848119638581669}
+  - component: {fileID: 3053781508144202592}
   m_Layer: 6
   m_Name: player
   m_TagString: Untagged
@@ -153,6 +154,8 @@ MonoBehaviour:
   controller: {fileID: 9215408304914644274}
   speed: 35
   dashcooldown: 10
+  jump: 0
+  dash: 0
 --- !u!114 &9215408304914644286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +171,7 @@ MonoBehaviour:
   playertransform: {fileID: 916638213956779528}
   death: 0
   lives: 3
+  dmg_cd: 0
 --- !u!70 &8387848119638581669
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -184,6 +188,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0.011412621, y: 0}
   m_Size: {x: 0.42637444, y: 1}
   m_Direction: 0
+--- !u!114 &3053781508144202592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9154645184132384791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef91920f49e2ac4799be732d2983afd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  has_key: 0
+  key: {fileID: 0}
 --- !u!1 &9215408304892486974
 GameObject:
   m_ObjectHideFlags: 0
